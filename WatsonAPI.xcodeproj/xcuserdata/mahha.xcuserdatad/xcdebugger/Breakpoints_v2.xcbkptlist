@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   type = "1"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "WatsonSentimentAnalysisApp/ViewController.swift"
+            timestampString = "511796947.576807"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "10"
+            endingLineNumber = "10">
+            <Locations>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "WatsonSentimentAnalysisApp.ViewController.init (nibName : Swift.Optional&lt;Swift.String&gt;, bundle : Swift.Optional&lt;__ObjC.Bundle&gt;) -&gt; WatsonSentimentAnalysisApp.ViewController"
+                  moduleName = "WatsonSentimentAnalysisApp"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/mahha/Desktop/Swift%203/WatsonSentimentAnalysisApp/WatsonSentimentAnalysisApp/ViewController.swift"
+                  timestampString = "511798528.404006"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "14"
+                  endingLineNumber = "14"
+                  offsetFromSymbolStart = "70">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "WatsonSentimentAnalysisApp.ViewController.__allocating_init (nibName : Swift.Optional&lt;Swift.String&gt;, bundle : Swift.Optional&lt;__ObjC.Bundle&gt;) -&gt; WatsonSentimentAnalysisApp.ViewController"
+                  moduleName = "WatsonSentimentAnalysisApp"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/mahha/Desktop/Swift%203/WatsonSentimentAnalysisApp/WatsonSentimentAnalysisApp/ViewController.swift"
+                  timestampString = "511798528.406361"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "0"
+                  endingLineNumber = "0"
+                  offsetFromSymbolStart = "23">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "WatsonSentimentAnalysisApp.ViewController.__allocating_init (coder : __ObjC.NSCoder) -&gt; Swift.Optional&lt;WatsonSentimentAnalysisApp.ViewController&gt;"
+                  moduleName = "WatsonSentimentAnalysisApp"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/mahha/Desktop/Swift%203/WatsonSentimentAnalysisApp/WatsonSentimentAnalysisApp/ViewController.swift"
+                  timestampString = "511798528.409099"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "0"
+                  endingLineNumber = "0"
+                  offsetFromSymbolStart = "4">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "WatsonSentimentAnalysisApp.ViewController.init (coder : __ObjC.NSCoder) -&gt; Swift.Optional&lt;WatsonSentimentAnalysisApp.ViewController&gt;"
+                  moduleName = "WatsonSentimentAnalysisApp"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/mahha/Desktop/Swift%203/WatsonSentimentAnalysisApp/WatsonSentimentAnalysisApp/ViewController.swift"
+                  timestampString = "511798528.411726"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "14"
+                  endingLineNumber = "14"
+                  offsetFromSymbolStart = "31">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "WatsonSentimentAnalysisApp/ViewController.swift"
+            timestampString = "511800086.700988"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "39"
+            endingLineNumber = "39"
+            landmarkName = "sendToWatsonPressed(sender:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "WatsonSentimentAnalysisApp/ViewController.swift"
+            timestampString = "511800086.700988"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "38"
+            endingLineNumber = "38"
+            landmarkName = "sendToWatsonPressed(sender:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "WatsonAlchemyAPI/WatsonImageRecognitionController.swift"
+            timestampString = "511893426.882698"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "71"
+            endingLineNumber = "71"
+            landmarkName = "sendToWatsonPressed(_:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>

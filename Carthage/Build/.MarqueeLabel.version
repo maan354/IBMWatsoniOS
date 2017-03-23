@@ -1,0 +1,14 @@
+{
+  "xcodeVersion" : "Xcode 8.2.1\nBuild version 8C1002",
+  "commitish" : "3.0.1",
+  "iOS" : [
+    {
+      "hash" : "94ed9f39acd9d05782823b8221189ec29c64d6e43f01e55f3ac92d879c5f0a4b",
+      "name" : "MarqueeLabel"
+    },
+    {
+      "hash" : "8335a59bcdef5b47f071b5af47b91a3d1766fa01fc5f5b81c7d67af0a161dd3c",
+      "name" : "MarqueeLabelSwift"
+    }
+  ]
+}

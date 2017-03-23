@@ -1,0 +1,451 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		938A95E71E828BE500E22919 /* Dashboard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 938A95E61E828BE500E22919 /* Dashboard.swift */; };
+		938A95E91E8291F300E22919 /* WatsonImageRecognitionController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 938A95E81E8291F300E22919 /* WatsonImageRecognitionController.swift */; };
+		938A95EB1E8292FE00E22919 /* WatsonText2SpeechController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 938A95EA1E8292FE00E22919 /* WatsonText2SpeechController.swift */; };
+		93B6EF421E813A68005B9C05 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93B6EF411E813A68005B9C05 /* AppDelegate.swift */; };
+		93B6EF441E813A68005B9C05 /* WatsonSentimentController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93B6EF431E813A68005B9C05 /* WatsonSentimentController.swift */; };
+		93B6EF491E813A68005B9C05 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 93B6EF481E813A68005B9C05 /* Assets.xcassets */; };
+		93E66A441E8162C2008728D1 /* AlchemyDataNewsV1.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = 93F5280B1E81616D00051A6D /* AlchemyDataNewsV1.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		93E66A451E8162C2008728D1 /* AlchemyLanguageV1.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = 93F5280C1E81616D00051A6D /* AlchemyLanguageV1.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		93E66A461E8162C2008728D1 /* AlchemyVisionV1.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = 93F5280D1E81616D00051A6D /* AlchemyVisionV1.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		93E66A471E8162C2008728D1 /* ConversationV1.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = 93F5280E1E81616D00051A6D /* ConversationV1.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		93E66A481E8162C2008728D1 /* DialogV1.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = 93F5280F1E81616D00051A6D /* DialogV1.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		93E66A491E8162C2008728D1 /* DiscoveryV1.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = 93F528101E81616D00051A6D /* DiscoveryV1.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		93E66A4A1E8162C2008728D1 /* DocumentConversionV1.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = 93F528111E81616D00051A6D /* DocumentConversionV1.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		93E66A4B1E8162C2008728D1 /* LanguageTranslatorV2.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = 93F528121E81616D00051A6D /* LanguageTranslatorV2.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		93E66A4C1E8162C2008728D1 /* NaturalLanguageClassifierV1.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = 93F528131E81616D00051A6D /* NaturalLanguageClassifierV1.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		93E66A4D1E8162C2008728D1 /* NaturalLanguageUnderstandingV1.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = 93F528141E81616D00051A6D /* NaturalLanguageUnderstandingV1.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		93E66A4E1E8162C2008728D1 /* PersonalityInsightsV2.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = 93F528151E81616D00051A6D /* PersonalityInsightsV2.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		93E66A4F1E8162C2008728D1 /* PersonalityInsightsV3.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = 93F528161E81616D00051A6D /* PersonalityInsightsV3.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		93E66A501E8162C2008728D1 /* RelationshipExtractionV1Beta.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = 93F528171E81616D00051A6D /* RelationshipExtractionV1Beta.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		93E66A511E8162C2008728D1 /* RestKit.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = 93F528181E81616D00051A6D /* RestKit.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		93E66A521E8162C2008728D1 /* RetrieveAndRankV1.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = 93F528191E81616D00051A6D /* RetrieveAndRankV1.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		93E66A531E8162C2008728D1 /* SpeechToTextV1.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = 93F5281A1E81616D00051A6D /* SpeechToTextV1.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		93E66A541E8162C2008728D1 /* TextToSpeechV1.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = 93F5281B1E81616D00051A6D /* TextToSpeechV1.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		93E66A551E8162C2008728D1 /* ToneAnalyzerV3.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = 93F5281C1E81616D00051A6D /* ToneAnalyzerV3.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		93E66A561E8162C2008728D1 /* TradeoffAnalyticsV1.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = 93F5281D1E81616D00051A6D /* TradeoffAnalyticsV1.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		93E66A571E8162C2008728D1 /* VisualRecognitionV3.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = 93F5281E1E81616D00051A6D /* VisualRecognitionV3.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		93F3C0EA1E8297D1002D2CC5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 93F3C0E91E8297D1002D2CC5 /* Main.storyboard */; };
+		93F5281F1E81616D00051A6D /* AlchemyDataNewsV1.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 93F5280B1E81616D00051A6D /* AlchemyDataNewsV1.framework */; };
+		93F528201E81616D00051A6D /* AlchemyLanguageV1.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 93F5280C1E81616D00051A6D /* AlchemyLanguageV1.framework */; };
+		93F528211E81616D00051A6D /* AlchemyVisionV1.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 93F5280D1E81616D00051A6D /* AlchemyVisionV1.framework */; };
+		93F528221E81616D00051A6D /* ConversationV1.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 93F5280E1E81616D00051A6D /* ConversationV1.framework */; };
+		93F528231E81616D00051A6D /* DialogV1.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 93F5280F1E81616D00051A6D /* DialogV1.framework */; };
+		93F528241E81616D00051A6D /* DiscoveryV1.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 93F528101E81616D00051A6D /* DiscoveryV1.framework */; };
+		93F528251E81616D00051A6D /* DocumentConversionV1.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 93F528111E81616D00051A6D /* DocumentConversionV1.framework */; };
+		93F528261E81616D00051A6D /* LanguageTranslatorV2.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 93F528121E81616D00051A6D /* LanguageTranslatorV2.framework */; };
+		93F528271E81616D00051A6D /* NaturalLanguageClassifierV1.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 93F528131E81616D00051A6D /* NaturalLanguageClassifierV1.framework */; };
+		93F528281E81616D00051A6D /* NaturalLanguageUnderstandingV1.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 93F528141E81616D00051A6D /* NaturalLanguageUnderstandingV1.framework */; };
+		93F528291E81616D00051A6D /* PersonalityInsightsV2.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 93F528151E81616D00051A6D /* PersonalityInsightsV2.framework */; };
+		93F5282A1E81616D00051A6D /* PersonalityInsightsV3.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 93F528161E81616D00051A6D /* PersonalityInsightsV3.framework */; };
+		93F5282B1E81616D00051A6D /* RelationshipExtractionV1Beta.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 93F528171E81616D00051A6D /* RelationshipExtractionV1Beta.framework */; };
+		93F5282C1E81616D00051A6D /* RestKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 93F528181E81616D00051A6D /* RestKit.framework */; };
+		93F5282D1E81616D00051A6D /* RetrieveAndRankV1.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 93F528191E81616D00051A6D /* RetrieveAndRankV1.framework */; };
+		93F5282E1E81616D00051A6D /* SpeechToTextV1.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 93F5281A1E81616D00051A6D /* SpeechToTextV1.framework */; };
+		93F5282F1E81616D00051A6D /* TextToSpeechV1.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 93F5281B1E81616D00051A6D /* TextToSpeechV1.framework */; };
+		93F528301E81616D00051A6D /* ToneAnalyzerV3.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 93F5281C1E81616D00051A6D /* ToneAnalyzerV3.framework */; };
+		93F528311E81616D00051A6D /* TradeoffAnalyticsV1.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 93F5281D1E81616D00051A6D /* TradeoffAnalyticsV1.framework */; };
+		93F528321E81616D00051A6D /* VisualRecognitionV3.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 93F5281E1E81616D00051A6D /* VisualRecognitionV3.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		93E66A431E816286008728D1 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 12;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				93E66A441E8162C2008728D1 /* AlchemyDataNewsV1.framework in CopyFiles */,
+				93E66A451E8162C2008728D1 /* AlchemyLanguageV1.framework in CopyFiles */,
+				93E66A461E8162C2008728D1 /* AlchemyVisionV1.framework in CopyFiles */,
+				93E66A471E8162C2008728D1 /* ConversationV1.framework in CopyFiles */,
+				93E66A481E8162C2008728D1 /* DialogV1.framework in CopyFiles */,
+				93E66A491E8162C2008728D1 /* DiscoveryV1.framework in CopyFiles */,
+				93E66A4A1E8162C2008728D1 /* DocumentConversionV1.framework in CopyFiles */,
+				93E66A4B1E8162C2008728D1 /* LanguageTranslatorV2.framework in CopyFiles */,
+				93E66A4C1E8162C2008728D1 /* NaturalLanguageClassifierV1.framework in CopyFiles */,
+				93E66A4D1E8162C2008728D1 /* NaturalLanguageUnderstandingV1.framework in CopyFiles */,
+				93E66A4E1E8162C2008728D1 /* PersonalityInsightsV2.framework in CopyFiles */,
+				93E66A4F1E8162C2008728D1 /* PersonalityInsightsV3.framework in CopyFiles */,
+				93E66A501E8162C2008728D1 /* RelationshipExtractionV1Beta.framework in CopyFiles */,
+				93E66A511E8162C2008728D1 /* RestKit.framework in CopyFiles */,
+				93E66A521E8162C2008728D1 /* RetrieveAndRankV1.framework in CopyFiles */,
+				93E66A531E8162C2008728D1 /* SpeechToTextV1.framework in CopyFiles */,
+				93E66A541E8162C2008728D1 /* TextToSpeechV1.framework in CopyFiles */,
+				93E66A551E8162C2008728D1 /* ToneAnalyzerV3.framework in CopyFiles */,
+				93E66A561E8162C2008728D1 /* TradeoffAnalyticsV1.framework in CopyFiles */,
+				93E66A571E8162C2008728D1 /* VisualRecognitionV3.framework in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		938A95E21E8195CF00E22919 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		938A95E61E828BE500E22919 /* Dashboard.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Dashboard.swift; sourceTree = "<group>"; };
+		938A95E81E8291F300E22919 /* WatsonImageRecognitionController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WatsonImageRecognitionController.swift; sourceTree = "<group>"; };
+		938A95EA1E8292FE00E22919 /* WatsonText2SpeechController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WatsonText2SpeechController.swift; sourceTree = "<group>"; };
+		93B6EF3E1E813A68005B9C05 /* WatsonAPI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WatsonAPI.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		93B6EF411E813A68005B9C05 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		93B6EF431E813A68005B9C05 /* WatsonSentimentController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WatsonSentimentController.swift; sourceTree = "<group>"; };
+		93B6EF481E813A68005B9C05 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		93F3C0E91E8297D1002D2CC5 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		93F5280B1E81616D00051A6D /* AlchemyDataNewsV1.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AlchemyDataNewsV1.framework; path = Carthage/Build/iOS/AlchemyDataNewsV1.framework; sourceTree = SOURCE_ROOT; };
+		93F5280C1E81616D00051A6D /* AlchemyLanguageV1.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AlchemyLanguageV1.framework; path = Carthage/Build/iOS/AlchemyLanguageV1.framework; sourceTree = SOURCE_ROOT; };
+		93F5280D1E81616D00051A6D /* AlchemyVisionV1.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AlchemyVisionV1.framework; path = Carthage/Build/iOS/AlchemyVisionV1.framework; sourceTree = SOURCE_ROOT; };
+		93F5280E1E81616D00051A6D /* ConversationV1.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ConversationV1.framework; path = Carthage/Build/iOS/ConversationV1.framework; sourceTree = SOURCE_ROOT; };
+		93F5280F1E81616D00051A6D /* DialogV1.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = DialogV1.framework; path = Carthage/Build/iOS/DialogV1.framework; sourceTree = SOURCE_ROOT; };
+		93F528101E81616D00051A6D /* DiscoveryV1.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = DiscoveryV1.framework; path = Carthage/Build/iOS/DiscoveryV1.framework; sourceTree = SOURCE_ROOT; };
+		93F528111E81616D00051A6D /* DocumentConversionV1.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = DocumentConversionV1.framework; path = Carthage/Build/iOS/DocumentConversionV1.framework; sourceTree = SOURCE_ROOT; };
+		93F528121E81616D00051A6D /* LanguageTranslatorV2.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = LanguageTranslatorV2.framework; path = Carthage/Build/iOS/LanguageTranslatorV2.framework; sourceTree = SOURCE_ROOT; };
+		93F528131E81616D00051A6D /* NaturalLanguageClassifierV1.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = NaturalLanguageClassifierV1.framework; path = Carthage/Build/iOS/NaturalLanguageClassifierV1.framework; sourceTree = SOURCE_ROOT; };
+		93F528141E81616D00051A6D /* NaturalLanguageUnderstandingV1.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = NaturalLanguageUnderstandingV1.framework; path = Carthage/Build/iOS/NaturalLanguageUnderstandingV1.framework; sourceTree = SOURCE_ROOT; };
+		93F528151E81616D00051A6D /* PersonalityInsightsV2.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = PersonalityInsightsV2.framework; path = Carthage/Build/iOS/PersonalityInsightsV2.framework; sourceTree = SOURCE_ROOT; };
+		93F528161E81616D00051A6D /* PersonalityInsightsV3.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = PersonalityInsightsV3.framework; path = Carthage/Build/iOS/PersonalityInsightsV3.framework; sourceTree = SOURCE_ROOT; };
+		93F528171E81616D00051A6D /* RelationshipExtractionV1Beta.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = RelationshipExtractionV1Beta.framework; path = Carthage/Build/iOS/RelationshipExtractionV1Beta.framework; sourceTree = SOURCE_ROOT; };
+		93F528181E81616D00051A6D /* RestKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = RestKit.framework; path = Carthage/Build/iOS/RestKit.framework; sourceTree = SOURCE_ROOT; };
+		93F528191E81616D00051A6D /* RetrieveAndRankV1.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = RetrieveAndRankV1.framework; path = Carthage/Build/iOS/RetrieveAndRankV1.framework; sourceTree = SOURCE_ROOT; };
+		93F5281A1E81616D00051A6D /* SpeechToTextV1.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SpeechToTextV1.framework; path = Carthage/Build/iOS/SpeechToTextV1.framework; sourceTree = SOURCE_ROOT; };
+		93F5281B1E81616D00051A6D /* TextToSpeechV1.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = TextToSpeechV1.framework; path = Carthage/Build/iOS/TextToSpeechV1.framework; sourceTree = SOURCE_ROOT; };
+		93F5281C1E81616D00051A6D /* ToneAnalyzerV3.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ToneAnalyzerV3.framework; path = Carthage/Build/iOS/ToneAnalyzerV3.framework; sourceTree = SOURCE_ROOT; };
+		93F5281D1E81616D00051A6D /* TradeoffAnalyticsV1.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = TradeoffAnalyticsV1.framework; path = Carthage/Build/iOS/TradeoffAnalyticsV1.framework; sourceTree = SOURCE_ROOT; };
+		93F5281E1E81616D00051A6D /* VisualRecognitionV3.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = VisualRecognitionV3.framework; path = Carthage/Build/iOS/VisualRecognitionV3.framework; sourceTree = SOURCE_ROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		93B6EF3B1E813A68005B9C05 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				93F5282F1E81616D00051A6D /* TextToSpeechV1.framework in Frameworks */,
+				93F528261E81616D00051A6D /* LanguageTranslatorV2.framework in Frameworks */,
+				93F528211E81616D00051A6D /* AlchemyVisionV1.framework in Frameworks */,
+				93F528301E81616D00051A6D /* ToneAnalyzerV3.framework in Frameworks */,
+				93F5282B1E81616D00051A6D /* RelationshipExtractionV1Beta.framework in Frameworks */,
+				93F5281F1E81616D00051A6D /* AlchemyDataNewsV1.framework in Frameworks */,
+				93F528231E81616D00051A6D /* DialogV1.framework in Frameworks */,
+				93F528221E81616D00051A6D /* ConversationV1.framework in Frameworks */,
+				93F5282D1E81616D00051A6D /* RetrieveAndRankV1.framework in Frameworks */,
+				93F528311E81616D00051A6D /* TradeoffAnalyticsV1.framework in Frameworks */,
+				93F528251E81616D00051A6D /* DocumentConversionV1.framework in Frameworks */,
+				93F528321E81616D00051A6D /* VisualRecognitionV3.framework in Frameworks */,
+				93F528281E81616D00051A6D /* NaturalLanguageUnderstandingV1.framework in Frameworks */,
+				93F528291E81616D00051A6D /* PersonalityInsightsV2.framework in Frameworks */,
+				93F5282C1E81616D00051A6D /* RestKit.framework in Frameworks */,
+				93F5282E1E81616D00051A6D /* SpeechToTextV1.framework in Frameworks */,
+				93F528241E81616D00051A6D /* DiscoveryV1.framework in Frameworks */,
+				93F528201E81616D00051A6D /* AlchemyLanguageV1.framework in Frameworks */,
+				93F528271E81616D00051A6D /* NaturalLanguageClassifierV1.framework in Frameworks */,
+				93F5282A1E81616D00051A6D /* PersonalityInsightsV3.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		93B6EF351E813A68005B9C05 = {
+			isa = PBXGroup;
+			children = (
+				93F5276A1E815EC300051A6D /* Framework */,
+				93B6EF401E813A68005B9C05 /* WatsonAPI */,
+				93B6EF3F1E813A68005B9C05 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		93B6EF3F1E813A68005B9C05 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				93B6EF3E1E813A68005B9C05 /* WatsonAPI.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		93B6EF401E813A68005B9C05 /* WatsonAPI */ = {
+			isa = PBXGroup;
+			children = (
+				93F3C0E91E8297D1002D2CC5 /* Main.storyboard */,
+				93B6EF411E813A68005B9C05 /* AppDelegate.swift */,
+				938A95E21E8195CF00E22919 /* Info.plist */,
+				93B6EF431E813A68005B9C05 /* WatsonSentimentController.swift */,
+				93B6EF481E813A68005B9C05 /* Assets.xcassets */,
+				938A95E61E828BE500E22919 /* Dashboard.swift */,
+				938A95E81E8291F300E22919 /* WatsonImageRecognitionController.swift */,
+				938A95EA1E8292FE00E22919 /* WatsonText2SpeechController.swift */,
+			);
+			path = WatsonAPI;
+			sourceTree = "<group>";
+		};
+		93F5276A1E815EC300051A6D /* Framework */ = {
+			isa = PBXGroup;
+			children = (
+				93F5280B1E81616D00051A6D /* AlchemyDataNewsV1.framework */,
+				93F5280C1E81616D00051A6D /* AlchemyLanguageV1.framework */,
+				93F5280D1E81616D00051A6D /* AlchemyVisionV1.framework */,
+				93F5280E1E81616D00051A6D /* ConversationV1.framework */,
+				93F5280F1E81616D00051A6D /* DialogV1.framework */,
+				93F528101E81616D00051A6D /* DiscoveryV1.framework */,
+				93F528111E81616D00051A6D /* DocumentConversionV1.framework */,
+				93F528121E81616D00051A6D /* LanguageTranslatorV2.framework */,
+				93F528131E81616D00051A6D /* NaturalLanguageClassifierV1.framework */,
+				93F528141E81616D00051A6D /* NaturalLanguageUnderstandingV1.framework */,
+				93F528151E81616D00051A6D /* PersonalityInsightsV2.framework */,
+				93F528161E81616D00051A6D /* PersonalityInsightsV3.framework */,
+				93F528171E81616D00051A6D /* RelationshipExtractionV1Beta.framework */,
+				93F528181E81616D00051A6D /* RestKit.framework */,
+				93F528191E81616D00051A6D /* RetrieveAndRankV1.framework */,
+				93F5281A1E81616D00051A6D /* SpeechToTextV1.framework */,
+				93F5281B1E81616D00051A6D /* TextToSpeechV1.framework */,
+				93F5281C1E81616D00051A6D /* ToneAnalyzerV3.framework */,
+				93F5281D1E81616D00051A6D /* TradeoffAnalyticsV1.framework */,
+				93F5281E1E81616D00051A6D /* VisualRecognitionV3.framework */,
+			);
+			name = Framework;
+			path = WatsonAlchemyAPI;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		93B6EF3D1E813A68005B9C05 /* WatsonAPI */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 93B6EF501E813A68005B9C05 /* Build configuration list for PBXNativeTarget "WatsonAPI" */;
+			buildPhases = (
+				93B6EF3A1E813A68005B9C05 /* Sources */,
+				93B6EF3B1E813A68005B9C05 /* Frameworks */,
+				93B6EF3C1E813A68005B9C05 /* Resources */,
+				93E66A431E816286008728D1 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = WatsonAPI;
+			productName = WatsonSentimentAnalysisApp;
+			productReference = 93B6EF3E1E813A68005B9C05 /* WatsonAPI.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		93B6EF361E813A68005B9C05 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0820;
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = MAHHA;
+				TargetAttributes = {
+					93B6EF3D1E813A68005B9C05 = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = 33NBVJGNXB;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 93B6EF391E813A68005B9C05 /* Build configuration list for PBXProject "WatsonAPI" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 93B6EF351E813A68005B9C05;
+			productRefGroup = 93B6EF3F1E813A68005B9C05 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				93B6EF3D1E813A68005B9C05 /* WatsonAPI */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		93B6EF3C1E813A68005B9C05 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				93F3C0EA1E8297D1002D2CC5 /* Main.storyboard in Resources */,
+				93B6EF491E813A68005B9C05 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		93B6EF3A1E813A68005B9C05 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				938A95EB1E8292FE00E22919 /* WatsonText2SpeechController.swift in Sources */,
+				93B6EF441E813A68005B9C05 /* WatsonSentimentController.swift in Sources */,
+				938A95E91E8291F300E22919 /* WatsonImageRecognitionController.swift in Sources */,
+				938A95E71E828BE500E22919 /* Dashboard.swift in Sources */,
+				93B6EF421E813A68005B9C05 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		93B6EF4E1E813A68005B9C05 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		93B6EF4F1E813A68005B9C05 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		93B6EF511E813A68005B9C05 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 33NBVJGNXB;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/WatsonAPI",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
+				);
+				INFOPLIST_FILE = WatsonAPI/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ibm.WatsonAPI;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		93B6EF521E813A68005B9C05 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 33NBVJGNXB;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/WatsonAPI",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
+				);
+				INFOPLIST_FILE = WatsonAPI/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ibm.WatsonAPI;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		93B6EF391E813A68005B9C05 /* Build configuration list for PBXProject "WatsonAPI" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				93B6EF4E1E813A68005B9C05 /* Debug */,
+				93B6EF4F1E813A68005B9C05 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		93B6EF501E813A68005B9C05 /* Build configuration list for PBXNativeTarget "WatsonAPI" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				93B6EF511E813A68005B9C05 /* Debug */,
+				93B6EF521E813A68005B9C05 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 93B6EF361E813A68005B9C05 /* Project object */;
+}
